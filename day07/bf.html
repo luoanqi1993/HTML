@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				background: whitesmoke;
+			}
+			ul{
+				list-style: none;
+			}
+			.content{
+				margin-right:auto;
+				margin-left: auto;
+				margin-top: 50px;
+				width: 1000px;
+				height: 350px;
+				border: 1px solid #999999;
+				border-radius: 10px;
+				overflow: hidden;
+			}
+			.content>h2{
+				width: 100%;
+				height: 20%;
+				box-sizing: border-box;
+				border-bottom: 1px solid silver;
+				line-height: 70px;
+				font-size: 18px;
+				text-indent: 2em;
+				font-weight: normal;
+			}
+			.item{
+				width: 100%;
+				height: 80%;
+			}
+			.item>li{
+				width: 25%;
+				height: 100%;
+				float: left;
+				background: greenyellow;
+				position: relative;
+			}
+			.bf:before{
+				content: '';
+				width: 1px;
+				height: 100%;
+				display: block;
+				z-index: 100;
+				background:yellow;
+				position: absolute;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<h2>标题</h2>
+			<ul class="item">
+				<li></li>
+				<li class="bf"></li>
+				<li class="bf"></li>
+				<li class="bf"></li>
+			</ul>
+			
+		</div>	
+	</body>
+</html>

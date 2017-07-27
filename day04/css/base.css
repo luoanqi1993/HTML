@@ -1,0 +1,179 @@
+*{margin: 0; padding: 0;}
+.center{margin-left: auto;margin-right: auto;}
+
+/*start top*/
+.top{
+    width: 1200px;margin-top: 10px;overflow: hidden;
+}
+.topLogo{ margin-left: 32px;}
+.topLogo .icon,.topLogo .topText{ float: left;}
+.topLogo .icon{
+    background:#f56600 url("../images/mi-logo.png") no-repeat;
+    width: 59px;height: 59px;
+    background-size: 100% 100%;
+    display: block;
+    margin-top: 10px;
+}
+.topText{margin-left:22px; margin-top: 4px;}
+.topText h1{
+    font-size: 38px; color: #333333;letter-spacing:1px;
+}
+/*×Ö¼ä¾à  letter-spacing:*/
+.topText p{
+    font-size: 10px; color: #666666;
+}
+/*end top*/
+
+/*start content*/
+.content {
+    background: url("../images/banner.png") no-repeat;
+    width: 1920px;height: 589px;
+    margin-top: 20px;
+    position: relative;
+}
+.content .login{
+    position: absolute;
+    top: 50%;right: 390px;
+    margin-top: -262px
+}
+.login{
+    width: 400px;height: 524px;background:white;
+    text-align: center;
+}
+.banner{height:589px;}
+.loginOne li{
+    color: #666666;
+    list-style: none;font-size: 24px;
+    padding: 4px 14px;margin-top: 30px;
+    display: inline-block;text-align: center;
+}
+.loginOne .one{color: #f56600;}
+.loginTwo li{
+    float: left;color: #999999;
+    list-style: none;font-size: 12px;
+    padding: 2px 4px;
+}
+.login .loginOne li span{color: #999999;}
+.login .one,.login .two{cursor: pointer;}
+.login .two:hover{ color: #f56600;}
+.login input{
+    width: 340px;height: 50px;
+    outline: none;
+    border: 1px solid #e0e0e0;
+    text-indent: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.login button{
+    width: 340px; height: 50px;
+    outline: none;
+    background: #f56600;
+    color:#feffff;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.loginTwo span{cursor: pointer;}
+.loginTwo span:hover{
+    color: #f56600; text-decoration: underline;
+}
+.loginTwo{
+    margin-left: 110px;margin-top: 16px;
+}
+.login .mode{
+    clear: both;margin-top: 140px;
+}
+
+.mode{
+    color: #b0b0b0;
+    border: 1px solid #b0b0b0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+.login>a{
+    background:#747474 ;
+    width: 30px;height: 30px;
+    display:inline-block;
+    border-radius: 50%;
+    margin:0 16px;
+    margin-top: 14px;
+    position: relative;
+}
+.login>a>.tencent,.sina{
+    background:url("../images/icons_type.png") no-repeat;
+    width: 18px;height: 18px;
+    display: block;
+    position: absolute;
+    top: 50%;right: 50%;
+    margin-top: -10px;margin-right: -9px;
+}
+.login>a>.tencent{
+    background-position: -19px 0;
+}
+.login>a>.sina{
+    background-position: -38px 0;
+}
+.login>a>.alipay{
+    background:url("../images/icons_type.png") no-repeat;
+    width: 24px;height: 20px;
+    display: block;
+    position: absolute;
+    top: 50%;right: 50%;
+    margin-top: -9px;margin-right: -12px;
+}
+.login>a>.wechat{
+    background:url("../images/icons_type.png") no-repeat;
+    width: 23px;height: 18px;
+    display: block;
+    position: absolute;
+    top: 50%;right: 50%;
+    margin-top: -9px;margin-right: -11.5px;
+}
+.login>a>.alipay{
+    background-position: -56px 0;
+}
+.login>a>.wechat{
+    background-position: -84px 0;
+}
+.login>.one:hover{
+    background: #0288d1;
+}
+.login>.two:hover{
+    background: #d32f2f;
+}
+.login>.three:hover{
+    background: #0ae;
+}
+.login>.four:hover{
+    background: #00d20d;
+}
+/*end content*/
+
+/*start footer*/
+.footer{
+    width: 1200px;margin-top: 100px;
+}
+.footer .guild{
+    list-style: none;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: #333333;
+}
+.footer a:hover{
+    color: #fd693c;
+}
+.footer p{clear: both;text-align: center;
+    color: #333333;
+    font-size: 12px;
+    line-height: 40px;}
+/*end footer*/
+.blank{ height: 40px;}

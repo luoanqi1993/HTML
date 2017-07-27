@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;}
+h3{ background: pink; margin-left: auto;margin-right: auto; line-height: 50px;text-align: center; color: azure;}
+h4,p,li{padding: 10px; cursor: pointer;}
+div{width: 500px; margin-right: auto; margin-left: auto;}
+img{width: 500px;}
+strong{padding: 10px;}
+dt{ padding: 10px;}
+h4:hover{color: darkgrey;}
+p:hover{color:pink;}
+li:hover{color:deeppink;}
+dl:hover{color:deeppink;}

@@ -1,0 +1,24 @@
+*{margin: 0; padding: 0;}
+.top{  height: 75px;background:#1abebf; text-align: center}
+.content{  width: 718px;margin-right: auto;margin-left: auto;  margin-top: 20px; }
+h1{ color: #505050 ; }
+span{ font-size:16px;color: #c1c1c1; }
+.one{margin-left: 10px;}
+img{ margin-top: 20px;}
+.content>h1{  margin-bottom: 5px;  }
+.text{line-height:30px; margin-top: 30px;}
+p,{line-height:30px;}
+.two{text-indent: 20px; }
+.three{margin-top: 30px; text-indent: 20px;}
+th,td{
+    border: 2px solid #333;
+}
+th{ background: #ff8201; color: #feffff;}
+table{
+    border-collapse: collapse;
+    line-height: 50px;
+    text-align: center;
+    width: 718px;
+    margin-top: 30px;
+}
+

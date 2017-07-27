@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_161c24ul4sra4i.css"/>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .iconfont{
+            font-family: "iconfont"!important;
+            display: inline-block;
+        }
+        a{
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 1px solid pink;
+            position: relative;
+        }
+        .icon-sousuo{
+            position: absolute;
+            font-size: 20px;
+            top: 50%;
+            left: 50%;
+            margin-top: -10px;
+            margin-left: -10px;
+        }
+        #test{
+            width:100px;
+            height:100px;
+            background:red;
+        }
+    </style>
+
+</head>
+<body>
+<a href=""><i class="iconfont icon-sousuo"></i></a>
+<div id="test">
+
+</div>
+</body>
+<script>
+    $("#test").click(function(){
+        $(this).css({background:"pink"})
+    })
+</script>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_161c24ul4sra4i.css"/>
+    <style>
+        *{margin:0;padding:0}
+        .icon-sousuo {
+            font-size: 24px;
+        }
+        /*
+        input type="submit"给它边框不会影响其高度
+        */
+        .search-btn{
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 2;
+            width: 52px;
+            height: 52px;
+            border: 1px solid #e0e0e0;
+            font-size: 24px;
+            line-height: 24px;
+            background: #fff;
+            color: #616161;
+            outline: 0;
+        }
+        form{
+            margin: 50px;
+            height:54px;
+            position: relative;
+            width:272px;
+        }
+        .search-text{
+            outline: none;
+            position: absolute;
+            top: 0;
+            right: 49px;
+            padding:0 10px;
+            width: 223px;
+            height: 50px;
+            border: 1px solid #e0e0e0;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+<form>
+    <input class="search-text" type="text"/>
+    <button class="search-btn" type="submit"><i  class=" icon-sousuo iconfont"></i></button>
+</form>
+<i class="icon-sousuo iconfont"></i>
+</body>
+</html>

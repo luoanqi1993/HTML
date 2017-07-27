@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+           width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: mf 5s infinite;
+            transition: all 5s;
+        }
+        @keyframes mf {
+            from{
+                width: 100px;
+                height: 100px;
+                background-color: pink;
+                transform: rotate(360deg);
+            }
+            to{
+                width: 500px;
+                height: 500px;
+                background-color: #ffdb3d;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>

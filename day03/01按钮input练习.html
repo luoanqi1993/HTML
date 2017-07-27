@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{margin: 0;padding: 0;}
+
+        .red{
+            width: 200px;
+            border: 2px solid red;
+        }
+        .style{
+            line-height: 30px;
+            background: red;
+            width: 80px;
+
+            border: 2px solid red;
+            color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+<div class="content">
+    <!-- 内容-->
+    <form action="">
+        <!-- 提交-->
+        <p>电话：<input type="number" class="red"/></p>
+        <p>你的生日：<input type="date" class="red"/></p>
+        <p>用户名：<input type="text" class="red"/></p>
+        <p>密码：<input type="password" class="red"/></p>
+        <p>重复密码：<input type="password" class="red"/></p>
+            <!-- 如果只要给以上input加边框，就给以上每个input加上一个class-->
+        <p>性别: <input type="radio" name="sex"/>男 <input type="radio" name="sex"/>女</p>
+        <p>爱好：<input type="checkbox"/>动作片 <input type="checkbox"/>爱情片 <input type="checkbox"/>喜剧片 <br/>
+        <input type="checkbox"/>惊悚片 <input type="checkbox"/>动画片 <input type="checkbox"/>悬疑片 <br/>
+        <input type="checkbox"/>犯罪片 <input type="checkbox"/>科幻片 <br/></p>
+        <p>上传图片：<input type="file"/></p>
+        <input type="reset" class="style"/>
+        <input type="button" value="注册"class="style"/>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{ margin: 0; padding: 0;}
+.logo{
+    margin-left: auto; margin-right: auto;
+    display: block;padding: 5px;
+}
+.header{ background: #a2dbf9;  height: 50px;}
+.content{width: 1200px; margin-right: auto; margin-left: auto;line-height: 50px;}
+.nav{
+    color: #fbfbfb; width: 120px; background: #01aef0;
+     text-align: center; cursor: pointer;
+}
+.nav:hover{background:#749bd7;color: #a2dbf9;}
+p{
+    line-height:30px; width: 1200px;
+    margin-left: auto;margin-right: auto;
+    text-indent: 32px;
+}
+.footer{ 
+    background: #a2dbf9;height: 60px;margin-top: 160px;
+    margin-right: auto; margin-left: auto;
+    text-align: center;padding: 5px;
+}
+span{line-height: 30px;}
+.copyright{ margin-right:10px}
+.partner{margin-left: 10px;}

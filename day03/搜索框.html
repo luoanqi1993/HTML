@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .box{
+            cursor: pointer;
+            width: 250px;
+            position: relative;
+        }
+        .box:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        input{
+            width: 250px;
+            outline: none;
+            height: 40px;
+            border: none;
+            background: #eee;
+            border-radius: 24px;
+            text-indent: 20px;
+        }
+        span{
+            background: url("images/icon4.png") no-repeat;
+            width: 23px;height: 23px;
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            margin-top: -11.5px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <input type="text" placeholder="搜索"/>
+    <span></span>
+</div>
+</body>
+</html>
