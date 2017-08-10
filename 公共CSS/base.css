@@ -1,0 +1,47 @@
+*{margin: 0;padding: 0;}
+
+a{text-decoration: none;color:#333;}
+
+body{ color:#333;font-family:Helvetica,Microsoft YaHei;}
+
+.center{margin-left:auto;margin-right: auto;}
+
+ul{list-style: none;}
+
+.iconfont{
+    font-family: "iconfont"!important;
+    display: inline-block;
+}
+.bf:before{
+    content: "";
+    display: table;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+i,em{
+    font-style: normal;
+}
+
+
+
+/*ul li{*/
+    /*float: left;*/
+    /*width: 25%;height: 100%;*/
+    /*text-align: center;*/
+    /*position: relative;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.grid:before{*/
+    /*content: "";*/
+    /*width: 1px;*/
+    /*height: 100%;*/
+    /*display:block;*/
+    /*background: #dfdfdf;*/
+    /*position:absolute;*/
+/*}*/
+/*伪元素做方格*/
